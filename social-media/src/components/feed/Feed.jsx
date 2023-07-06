@@ -1,15 +1,12 @@
 import React from 'react'
 import './feed.css'
+import Share from '../share/Share'
 
 export default function Feed() {
   return (
-    <div className='share'>
-      <div className="shareWrapper">
-        <div className="shareTop">
-          <div className="shareBottom">
-            
-          </div>
-        </div>
+    <div className='feed'>
+      <div className="feedWrapper">
+      <Share/>
       </div>
       
     </div>
