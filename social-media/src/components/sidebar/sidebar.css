@@ -35,8 +35,9 @@ margin-bottom: 20px;
    width: 150px;
    border: none;
    padding: 18px;
-   border-radius: 5px;
+   border-radius:15px;
    font-weight: 500;
+  align-items: center;
 
 
 }
