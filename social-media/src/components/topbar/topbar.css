@@ -51,9 +51,6 @@ outline: none;
     align-items: center;
     justify-content: space-around;
     color: white;
-    
-
-    
 }
 .topbarLink{
     margin-right: 10px;
@@ -89,4 +86,7 @@ outline: none;
 .topbarImg{
     width: 32px;
     height: 32px;
+    border-radius: 50% ;
+    object-fit: cover;
+    cursor: pointer;
 }
