@@ -7,10 +7,10 @@ import Register from "./components/register/Register";
 
 function App() {
   return <>
-  {/* <Home/>  */}
+   <Home/>  
   {/* <Profile/> */}
   {/* <Login/> */}
-  <Register/>
+  {/* <Register/> */}
   </>
 }
 
