@@ -1,3 +1,8 @@
+
+![1](https://github.com/DILABS-WEB/Social_Media_Account/assets/76790667/e48df363-3cc1-4948-826f-caf3294539dc)
+![2](https://github.com/DILABS-WEB/Social_Media_Account/assets/76790667/3867d870-b0c9-47a3-beaf-9e643740ff49)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
