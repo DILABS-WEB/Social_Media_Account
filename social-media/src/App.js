@@ -6,7 +6,8 @@ import Profile from "./pages/home/profile/Profile";
 function App() {
   return <>
   {/* <Home/>  */}
-  <Profile/></>
+  <Profile/>
+  </>
 }
 
 export default App;
