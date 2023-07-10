@@ -2,7 +2,7 @@ import React from 'react'
 import "./post.css"
 import { MoreVert } from '@mui/icons-material'
 
-export default function Post(post) {
+export default function Post({post}) {
  console.log(post);
     return (
     <div className='post'>
