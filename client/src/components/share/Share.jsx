@@ -4,13 +4,14 @@ import PermMedia from '@mui/icons-material/PermMedia';
 import Label from '@mui/icons-material/Label';
 import Room from '@mui/icons-material/Room';
 import Emoji from '@mui/icons-material/EmojiEmotions';
+const PF=process.env.REACT_APP_PUBLIC_FOLDER;
 
 export default function Share() {
   return (
     <div className='share'>
         <div className="shareWrapper">
             <div className="shareTop">
-                <img className='shareProfileImg' src="/assets/person/2.jpg" alt="" />
+                <img className='shareProfileImg' src={`${PF}person/2.jpg`} alt="" />
                 <input placeholder='What`s in your mind Abhishek?' className='shareInput' />
             </div>
             <hr className="shareHr" />

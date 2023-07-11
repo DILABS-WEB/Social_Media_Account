@@ -4,14 +4,19 @@ import Person from '@mui/icons-material/Person';
 import Chats from '@mui/icons-material/ChatBubble';
 import Notifications from '@mui/icons-material/Notifications';
 import "./topbar.css"
+import {Link} from 'react-router-dom';
 
+const PF=process.env.REACT_APP_PUBLIC_FOLDER;
 
 export default function Topbar() {
   return (
     <div className='topbarContainer'>
 
         <div className="topbarLeft">
-    <span className="topbarLogo">Social~Chit~Chat</span>
+          <Link to='/' style={{textDecoration: 'none'}}>
+            <span className="topbarLogo">Social~Chit~Chat</span>
+          </Link>
+    
 
         </div>
        
@@ -45,7 +50,9 @@ export default function Topbar() {
 
 </div>
 </div>
-<img src="/assets/person/2.jpg" alt="" className='topbarImg'/>
+<Link to='/profile/:username' style={{textDecoration: 'none'}}>
+<img src={`${PF}person/2.jpg`} alt="" className='topbarImg'/>
+</Link>
         </div>
     </div>
     
