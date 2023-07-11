@@ -6,6 +6,7 @@ import { Users } from '../../dummyData'
 export default function Post({post}) {
   const  [like, setLike] = useState(post.like)
   const [isLiked, setIsLiked]= useState(false)
+  const PF=process.env.REACT_APP_PUBLIC_FOLDER;
 
   const likeHandler =()=> {
     setLike(isLiked ? like-1 : like+1)
@@ -16,7 +17,7 @@ export default function Post({post}) {
         <div className="postWrapper">
             <div className="postTop">
                 <div className="postTopLeft">  
-                    <img className='postProfileImg' src={Users.filter((u) => u.id===post.userId)[0].profilePicture} alt="" srcset="" /> 
+                    <img className='postProfileImg' src={PF+Users.filter((u) => u.id===post.userId)[0].profilePicture} alt="" srcset="" /> 
                     <span className="postUsername">{Users.filter((u) => u.id===post.userId)[0].username}</span>
                     <span className="postDate">{post.date}</span>
                  </div>
@@ -27,7 +28,7 @@ export default function Post({post}) {
             <div className="postCenter">
                 
                 <span className="postText">{post?.desc} </span>
-                <img className='postImg' src={post.photo} alt="" srcset="" />
+                <img className='postImg' src={PF+post.photo} alt="" srcset="" />
             </div>
             <div className="postBottom">
                <div className="postBottomLeft">

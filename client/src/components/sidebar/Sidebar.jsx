@@ -12,6 +12,8 @@ import School from '@mui/icons-material/School';
 import { Users } from '../../dummyData';
 import Closefriend from '../closefriend/Closefriend';
 
+
+
 export default function Sidebar() {
   return (
     <div className='sidebar'>
